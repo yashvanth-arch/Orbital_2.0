@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#02060d">
+<title>ORBITAL 2.0</title>
+<link rel="preload" as="image" href="assets/intro.png">
+<link rel="preload" as="image" href="assets/dashboard.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="vn.css">
+</head>
+<body>
+<div id="stage">
+
+  <!-- Loading -->
+  <div id="loader" class="layer">
+    <div class="ld">
+      <div class="ld-mark">ORBITAL<span>2.0</span></div>
+      <div class="ld-bar"><b id="ldBar"></b></div>
+      <div class="ld-row"><span id="ldMsg">LOADING ASSETS</span><span id="ldPct">0%</span></div>
+    </div>
+  </div>
+
+  <!-- 3. Dashboard (sits underneath so it's ready the instant the video ends) -->
+  <section id="dashboard" class="layer" aria-hidden="true">
+    <div class="bg-wrap"><div class="bg" id="dashBg"></div></div>
+    <canvas id="dust"></canvas>
+    <div class="vignette"></div>
+    <div class="scanlines"></div>
+
+    <nav id="menu" aria-label="Main menu">
+      <button class="hud-btn" data-action="play"><span class="idx">01</span><span class="lbl">PLAY</span><span class="chev"></span></button>
+      <button class="hud-btn" data-action="settings"><span class="idx">02</span><span class="lbl">SETTINGS</span><span class="chev"></span></button>
+      <button class="hud-btn" data-action="info"><span class="idx">03</span><span class="lbl">INFO</span><span class="chev"></span></button>
+    </nav>
+
+    <div id="hints" aria-hidden="true">
+      <span><kbd>↑ ↓</kbd>NAVIGATE</span><span><kbd>ENTER</kbd>SELECT</span><span><kbd>ESC</kbd>BACK</span>
+    </div>
+
+    <div class="hud-corner tl">SYS://ORBITAL.2.0</div>
+    <div class="hud-corner br">LINK STABLE <b></b></div>
+    <div id="toast"></div>
+
+    <!-- Level select (blurred over the dashboard background) -->
+    <div id="levels" hidden>
+      <h2>SELECT MISSION</h2>
+      <div id="levelList"></div>
+      <button class="hud-btn small" data-action="closeLevels"><span class="lbl">BACK</span><span class="chev"></span></button>
+    </div>
+
+    <!-- Info modal -->
+    <div id="info" class="modal" role="dialog" aria-modal="true" aria-label="Info" hidden>
+      <div class="panel">
+        <h2>INFO</h2>
+        <p class="info-intro">HOW THIS GAME WAS MADE</p>
+        <div class="irow"><span>CODING</span><b>Claude</b></div>
+        <div class="irow"><span>IMAGE ASSETS</span><b>ChatGPT</b></div>
+        <div class="irow"><span>CHARACTER IMAGES</span><b>Gemini</b></div>
+        <div class="irow"><span>GAME BY</span><b>Yashvanth L</b></div>
+        <div class="irow"><span>STORY BY</span><b>Soujanya P</b></div>
+        <button class="hud-btn small" data-action="closeInfo"><span class="lbl">BACK</span><span class="chev"></span></button>
+      </div>
+    </div>
+
+    <!-- Settings modal -->
+    <div id="settings" class="modal" role="dialog" aria-modal="true" aria-label="Settings" hidden>
+      <div class="panel">
+        <h2>SETTINGS</h2>
+        <label class="row"><span>MASTER VOLUME</span><span class="ctl"><input type="range" id="optVolume" min="0" max="1" step="0.05"><output id="volVal" for="optVolume"></output></span></label>
+        <label class="row"><span>MOTION EFFECTS</span><input type="checkbox" id="optMotion"><i class="sw"></i></label>
+        <label class="row"><span>SKIP TRANSITION</span><input type="checkbox" id="optSkip"><i class="sw"></i></label>
+        <button class="hud-btn small" data-action="close"><span class="lbl">BACK</span><span class="chev"></span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Transition video -->
+  <video id="transition" class="layer" src="assets/transition.mp4" preload="auto" playsinline muted></video>
+
+  <!-- 1. Intro -->
+  <section id="intro" class="layer">
+    <div class="bg-wrap"><div class="bg" id="introBg"></div></div>
+    <div class="intro-hit"></div>
+  </section>
+
+  <!-- Visual novel player (Mission story) -->
+  <section id="vn" class="layer" hidden></section>
+
+  <div id="fade" class="layer"></div>
+</div>
+<script src="story/mission001/story.js"></script>
+<script src="vn.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

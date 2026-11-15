@@ -1,0 +1,304 @@
+ORBITAL 2.0 — MISSION 001: ASTEROID RECONNAISSANCE
+PICTURE INSTRUCTIONS
+==============================================================================
+
+Save every picture in:   story/mission001/images/
+Use EXACTLY the file names given below (the game loads them by name).
+PNG is preferred; .jpg and .webp with the same name also work.
+Total pictures: 35  (31 backgrounds + 4 character sprites)
+Until a picture exists, the game shows a labelled placeholder, so you can add them one at a time.
+
+GENERAL STYLE (match the ORBITAL 2.0 key art you already made)
+------------------------------------------------------------------------------
+  Cinematic, photorealistic sci-fi. Deep navy / black space, electric-blue (#35d0ff) neon
+  and holographic accents, clean futuristic design, soft volumetric light. Consistent look
+  across all pictures. No text, logos, watermarks or UI unless the description asks for it.
+
+BACKGROUNDS
+  - Size 1920 x 1080 (16:9), PNG.
+  - The dialogue box covers the bottom ~25% of the screen: keep the important content in the upper 75%.
+  - Character sprites stand at the far LEFT and far RIGHT edges (about 5%–28% of the width on each side),
+    so keep the very centre of the picture as the main subject.
+
+CHARACTER SPRITES
+  - Transparent background PNG, roughly 1000 x 1700 px, standing 3/4 body (head to just above the knees is fine).
+  - Each sprite faces toward the centre of the screen (see each description).
+  - Same lighting style as the backgrounds, soft blue rim light.
+
+==============================================================================
+PART 1 — BACKGROUND / VISUAL PICTURES (in the order they appear in the story)
+==============================================================================
+
+[01]  bg_01_oed_exterior.png
+    Used in: Scene 01
+    Exterior of the Orbital Exploration Directorate (OED) headquarters, early morning, 2042. A
+    sleek glass-and-steel campus with a tall central tower and a ring-shaped observation deck,
+    white and silver with soft blue edge lighting. A rocket/satellite sculpture on the plaza, a
+    few small figures walking in. Clear sky fading from deep blue to a pale orange horizon. Wide
+    establishing shot.
+
+[02]  bg_02_director_office.png
+    Used in: Scene 01
+    The user's (Mission Director's) office. A huge floor-to-ceiling window shows Earth hanging
+    in space (the office is in a station/high tower). A modern desk, a digital wall clock and a
+    large wall-mounted mission display that is currently dark/idle. Warm interior lights against
+    the cool blue light from Earth. Leave the centre-left empty-ish: the two characters stand in
+    front of the image.
+
+[03]  bg_03_office_display_asteroid.png
+    Used in: Scene 01
+    Exactly the same office and camera angle as bg_02, but the large mission display is now
+    switched on, showing a glowing holographic rotating model of a dark, rocky, top-shaped
+    asteroid (Bennu) with blue wireframe lines and small data readouts. Blue light from the
+    display spills onto the room.
+
+[04]  bg_04_bennu_deep_space.png
+    Used in: Scene 02
+    Asteroid 101955 Bennu floating in deep space: a realistic, detailed, spinning-top shaped
+    dark grey carbon-rich asteroid covered in boulders and craters, lit from one side by the
+    Sun, black star-filled background. Place the asteroid on the LEFT-CENTRE of the frame and
+    keep the RIGHT third calm and dark, because info panels are shown there.
+
+[05]  bg_05_bennu_surface_closeup.png
+    Used in: Scene 02
+    Close-up of Bennu's surface: a rough landscape of large boulders, jagged rocks, uneven
+    terrain and shadowed craters, dark charcoal-grey with subtle highlights, black sky with a
+    few stars and the curved asteroid horizon in the distance. Photorealistic, harsh raking
+    sunlight, no smooth areas.
+
+[06]  bg_06_planning_room_hologram.png
+    Used in: Decision 01
+    A dark futuristic mission-planning room. A large holographic model of Bennu floats in the
+    centre of a circular holo-table, with two glowing spacecraft trajectory simulations around
+    it: one straight fast line passing by, one spiralling curve that settles into orbit. Blue
+    and cyan holograms, dim room, consoles on the sides. The lower quarter should stay fairly
+    dark.
+
+[07]  bg_07_flyby_preview.png
+    Used in: Decision 01 / Option A
+    Option A preview: a small sleek robotic spacecraft streaking past Bennu at high speed,
+    strong motion blur streaks and a fast glowing trail. Bennu is large and sharp in the middle
+    distance, the spacecraft is a blur crossing in front of it.
+
+[08]  bg_08_flyby_result.png
+    Used in: Decision 01 / Option A (failure)
+    The same scene afterwards: the spacecraft has already flown past and is a tiny distant point
+    of light speeding away, Bennu is shrinking and receding behind it into the dark, only partly
+    lit. Feels like a missed opportunity: empty, cold, lonely. Slight red warning tint in the
+    corners.
+
+[09]  bg_09_rendezvous_preview.png
+    Used in: Decision 01 / Option B
+    Option B preview: the spacecraft slowly approaching Bennu and settling into a calm
+    controlled observation trajectory, with a thin glowing blue orbit line curving around the
+    asteroid. Composed, steady, calm lighting; the spacecraft is clearly visible in the
+    mid-foreground with solar panels extended.
+
+[10]  bg_10_rendezvous_thrusters.png
+    Used in: Decision 01 / Option B (success)
+    The spacecraft close to Bennu, small thrusters firing short blue-white bursts to adjust its
+    trajectory. Bennu fills the background with a visible rocky surface. Subtle blue trajectory
+    line and a small green "locked" marker. Hopeful, successful mood.
+
+[11]  bg_11_control_room_bennu.png
+    Used in: Scene 03
+    Mission control room. A very large central screen shows Bennu rotating, with a clean
+    circular timer/readout beside it that reads "4.3 HOURS". Rows of operator consoles with
+    silhouettes of staff in the foreground, blue-lit, professional. Keep the bottom 25% dark and
+    simple.
+
+[12]  bg_12_observation_model_paths.png
+    Used in: Decision 02
+    A large 3D holographic Bennu model in the centre of a dark room with several glowing
+    coloured observation paths wrapped around it from different angles (like latitude/longitude
+    orbit rings), small camera-cone icons along the paths, and a faint grid. Futuristic UI,
+    blue/cyan with a few amber highlights.
+
+[13]  bg_13_one_hemisphere_preview.png
+    Used in: Decision 02 / Option A
+    Option A preview: the spacecraft observing only one side of Bennu. The observed hemisphere
+    is bright and has blue scan lines on it; the opposite hemisphere is completely dark and
+    unlit, hidden in shadow.
+
+[14]  bg_14_one_hemisphere_result.png
+    Used in: Decision 02 / Option A (failure)
+    A flat digital mapping display showing Bennu surface coverage: the left half is filled in
+    with a detailed map, the right half is empty dark grey with hatching and a small red "NO
+    DATA" warning marker. Red-tinged alert lighting.
+
+[15]  bg_15_multi_angle_preview.png
+    Used in: Decision 02 / Option B
+    Option B preview: the spacecraft shown at several positions around Bennu (ghosted copies
+    along a curved path), viewing the asteroid from different angles as it rotates. A digital
+    surface map panel in a corner is partly filling in with coloured coverage.
+
+[16]  bg_16_multi_angle_result.png
+    Used in: Decision 02 / Option B (success)
+    Same style as bg_15 but later: Bennu has rotated, the spacecraft is following its planned
+    path, and the digital surface map is now almost complete with blue/green coverage and only a
+    few small gaps left. Satisfying, successful mood.
+
+[17]  bg_17_engineering_lab.png
+    Used in: Scene 04
+    A futuristic spacecraft engineering laboratory: a clean white and blue high-tech hangar-like
+    lab, a spacecraft model suspended in the centre held by robotic arms, instrument models
+    (camera, laser altimeter, spectrometer, thermal mapper) floating around it as glowing
+    holograms. Engineers and equipment in the background.
+
+[18]  bg_18_payload_a_preview.png
+    Used in: Decision 03 / Option A
+    Option A preview: a close view of the reconnaissance spacecraft equipped with four
+    instruments (imaging camera, laser altimeter, visible/infrared spectrometer, thermal
+    infrared mapper), each labelled with a tiny glowing blue tag. Dark clean studio-like
+    backdrop with soft blue rim lighting.
+
+[19]  bg_19_payload_a_attached.png
+    Used in: Decision 03 / Option A (success)
+    The finished spacecraft with all four instruments attached, green confirmation check marks
+    glowing beside each one and a payload bar reading "10 / 10" filled. Triumphant, clean, well
+    lit.
+
+[20]  bg_20_payload_b_preview.png
+    Used in: Decision 03 / Option B
+    Option B preview: a spacecraft with a large sample-collection arm extended and a round
+    sample return capsule attached on top, same lab-like backdrop as bg_18. Impressive but
+    bulky.
+
+[21]  bg_21_payload_b_result.png
+    Used in: Decision 03 / Option B (failure)
+    The spacecraft configuration screen where the bulky sample arm and capsule take up all the
+    payload space: the camera, altimeter and spectrometers are shown as faded grey outlines
+    marked with red X symbols. Red warning overlay, payload bar overfilled in red.
+
+[22]  bg_22_mission_control_large.png
+    Used in: Scene 05
+    A large, impressive mission control room. Multiple big wall displays show the spacecraft,
+    Bennu and mission statistics. A full-size spacecraft model stands in the centre of the room
+    under soft spotlights. Staff at consoles in the background. Blue and white lighting,
+    cinematic.
+
+[23]  bg_23_hangar_launch_prep.png
+    Used in: Scene 05
+    A spacecraft hangar. Engineers in white suits work around the finished spacecraft,
+    launch-preparation lights (amber and green) are turning on along the walls, cables and
+    gantries, a big door beginning to open to a bright sunrise outside.
+
+[24]  bg_24_launch_pad.png
+    Used in: Scene 06
+    The spacecraft mounted on top of a tall launch vehicle on the launch pad at dawn, surrounded
+    by gantry towers and floodlights, steam venting from the base. A large digital countdown
+    clock is visible in the lower corner. Dramatic wide shot.
+
+[25]  bg_25_ignition.png
+    Used in: Scene 06
+    Engine ignition: bright white-orange flames and a huge billow of smoke and steam illuminate
+    the launch pad and gantry, the rocket just beginning to lift. Intense light, sparks, shaking
+    energy.
+
+[26]  bg_26_liftoff_rising.png
+    Used in: Scene 06
+    The rocket rising into a blue sky on a long bright exhaust plume, camera low looking up, the
+    ground and launch tower falling away below, thin clouds. Sense of speed and power.
+
+[27]  bg_27_space_cruise.png
+    Used in: Scene 06
+    The spacecraft travelling through space with Earth large and beautiful behind it, thin blue
+    atmosphere glow along the horizon, sunlight glinting on the solar panels. Calm and
+    awe-inspiring.
+
+[28]  bg_28_separation.png
+    Used in: Scene 06
+    The spacecraft separating from the spent upper stage of the launch vehicle, small puffs of
+    gas at the separation point, solar panels beginning to unfold, Earth curving below.
+
+[29]  bg_29_bennu_distance.png
+    Used in: Scene 06
+    Deep space with the spacecraft small in the foreground and Bennu appearing as a small, faint
+    grey point/shape in the far distance, lit by sunlight. Vast empty space, stars, a sense of
+    long travel.
+
+[30]  bg_30_bennu_approach.png
+    Used in: Scene 07
+    The spacecraft approaching Bennu. The asteroid fills most of the screen as a huge detailed
+    rocky world, the small spacecraft in the lower right giving a sense of scale, a thin blue
+    trajectory line leading in. Keep the centre area fairly calm because a status panel is
+    displayed there.
+
+[31]  bg_31_final_zoomout.png
+    Used in: Scene 07
+    Final wide shot: the camera has zoomed out and the small spacecraft and Bennu are visible
+    together against a field of stars, the Sun a bright flare on one edge. Peaceful, hopeful,
+    epic ending shot.
+
+==============================================================================
+PART 2 — CHARACTER SPRITES
+==============================================================================
+
+[C1]  char_engineer.png   (transparent PNG)
+    ENGINEER: Senior Mission Systems Engineer, one of the two creators of the game. Practical,
+    confident, a bit dry-humoured. Wears a dark navy OED mission jumpsuit/jacket with amber
+    accents, an ID badge, maybe a headset around the neck. Standing, 3/4 body, facing LEFT
+    (toward the middle of the screen), friendly neutral expression. Free to be styled after one
+    of the game creators.
+
+[C2]  char_scientist.png   (transparent PNG)
+    SCIENTIST: Lead Mission Scientist, the other creator. Warm, enthusiastic, curious. Wears a
+    white lab coat over a navy OED shirt with green accents, a tablet in one hand. Standing, 3/4
+    body, facing RIGHT (toward the middle of the screen), friendly smiling expression. Free to
+    be styled after the other game creator.
+
+[C3]  char_cross.png   (transparent PNG)
+    COMMANDER ADRIAN CROSS: Flight Operations Director. Authoritative, calm, experienced, about
+    50. Short greying hair, formal dark OED dress uniform with commander insignia and red
+    accents. Standing straight, hands behind back or arms folded, 3/4 body, facing LEFT.
+
+[C4]  char_okafor.png   (transparent PNG)
+    DR. NIA OKAFOR: Planetary Geologist. Smart, expressive, passionate about rocks. Natural hair
+    or braids, field-science jacket in dark grey with purple accents, a rock sample or hand lens
+    in her hand. Standing, 3/4 body, facing RIGHT, thoughtful friendly expression.
+
+==============================================================================
+NOT NEEDED AS PICTURES (the game draws these itself)
+==============================================================================
+  ORION (the AI) has no sprite — it speaks through a cyan HUD text box.
+  The USER (player) has no sprite and no name — shown as "USER".
+  NASA data panels, instrument tables, MISSION FAILED screens, the success/score screen and
+  the ORBITAL 2.0 end card are all built in code.
+
+CHECKLIST
+------------------------------------------------------------------------------
+  [ ] bg_01_oed_exterior.png
+  [ ] bg_02_director_office.png
+  [ ] bg_03_office_display_asteroid.png
+  [ ] bg_04_bennu_deep_space.png
+  [ ] bg_05_bennu_surface_closeup.png
+  [ ] bg_06_planning_room_hologram.png
+  [ ] bg_07_flyby_preview.png
+  [ ] bg_08_flyby_result.png
+  [ ] bg_09_rendezvous_preview.png
+  [ ] bg_10_rendezvous_thrusters.png
+  [ ] bg_11_control_room_bennu.png
+  [ ] bg_12_observation_model_paths.png
+  [ ] bg_13_one_hemisphere_preview.png
+  [ ] bg_14_one_hemisphere_result.png
+  [ ] bg_15_multi_angle_preview.png
+  [ ] bg_16_multi_angle_result.png
+  [ ] bg_17_engineering_lab.png
+  [ ] bg_18_payload_a_preview.png
+  [ ] bg_19_payload_a_attached.png
+  [ ] bg_20_payload_b_preview.png
+  [ ] bg_21_payload_b_result.png
+  [ ] bg_22_mission_control_large.png
+  [ ] bg_23_hangar_launch_prep.png
+  [ ] bg_24_launch_pad.png
+  [ ] bg_25_ignition.png
+  [ ] bg_26_liftoff_rising.png
+  [ ] bg_27_space_cruise.png
+  [ ] bg_28_separation.png
+  [ ] bg_29_bennu_distance.png
+  [ ] bg_30_bennu_approach.png
+  [ ] bg_31_final_zoomout.png
+  [ ] char_engineer.png
+  [ ] char_scientist.png
+  [ ] char_cross.png
+  [ ] char_okafor.png
